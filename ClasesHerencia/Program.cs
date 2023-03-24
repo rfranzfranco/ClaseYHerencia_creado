@@ -164,7 +164,7 @@ namespace ClasesHerencia
 
         private static void MostrarLista(List<Estudiante> listaEstudiantes)
         {
-            Console.WriteLine("\n-----------LISTA DE ESTUDIANTES-----------\n");
+            Console.WriteLine("\n----------- LISTA DE ESTUDIANTES -----------\n");
             foreach (Estudiante item in listaEstudiantes)
             {
                 Console.WriteLine(item.ToString());

@@ -8,6 +8,10 @@ namespace ClasesHerencia
 {
     internal class Estudiante : Usuario
     {
+        /// <summary>
+        /// este es un constructor vacio
+        /// </summary>
+        public Estudiante() { }
         public string Matricula { get; set; }
         public int Edad { get; set; }
 
