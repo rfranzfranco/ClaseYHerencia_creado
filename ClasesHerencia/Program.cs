@@ -50,6 +50,13 @@ namespace ClasesHerencia
                 Nombre = "lidia",
                 Sueldo = 23
             });
+            listaDocentes.Add(new Docente()
+            {
+                Cuenta = "Jose",
+                Password = "1781",
+                Nombre = "Jose",
+                Sueldo = 27
+            });
 
             MostrarLista(listaDocentes);
 
@@ -211,7 +218,7 @@ namespace ClasesHerencia
 
         private static void MostrarLista(List<Docente> listaDocentes)
         {
-            Console.WriteLine("\n-----------LISTA DE DOCENTES-----------\n");
+            Console.WriteLine("\n-----------LISTA DE DOCENTES y OTROS-----------\n");
             foreach (Docente item in listaDocentes)
             {
                 Console.WriteLine(item.ToString());
